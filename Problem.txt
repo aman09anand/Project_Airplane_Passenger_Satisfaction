@@ -1,0 +1,14 @@
+Customer satisfaction scores from 120,000+ airline passengers, including additional information about each passenger, their flight, and type of travel, as well as ther evaluation of different factors like cleanliness, comfort, service, and overall experience.
+
+Prepare a model for customer satisfaction rate (last column) after 
+a) removing unnecessary paramters.
+Steps After removing unnecessary parameters:
+0) Find any missing values, and outliers if any in the continuous field
+1) Build a model using all the fields (doing appropriate conversions)
+1a) Logistic Regression
+1b) Decision Tree,
+1c) Randomforest
+1d) Naive Bayes
+1e) AdaBoost, GDBoost, XGBoost
+2) Find fields that are dependent using chi square (for categorical variables)
+3) Address multi-collinearity and build logistic regression models for them
